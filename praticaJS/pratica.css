@@ -1,0 +1,17 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#number01, #number02, #number03{
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    border: solid gray 2px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+}
