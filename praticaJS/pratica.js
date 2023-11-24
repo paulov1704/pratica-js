@@ -4,10 +4,13 @@ var num3 = document.getElementById('number03').value
 var res = document.getElementById('resultado')
 
 
-function comparar(){
+function comparar(num1){
+    if(num1 >= 5){
+        document.body.style.background = 'red'
+    }else{
+        document.body.style.background = 'blue'
+    }
     
-    let lista = [num1, num2, num2]
-    res = lista.sort
 }
 
 
